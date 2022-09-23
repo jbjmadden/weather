@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+
+.top {
+    background-color: lightblue;
+    color: white;
+}
+
+.container, .nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav h1 {
+    font-size: 40px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.subtitle-line {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #999;
+}
+
+.subtitle-line h2 {
+    font-size: 30px;
+}
+
+.subtitle-line select, .subtitle-line label {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.subtitle-line select {
+    width: 60px;
+}
+
+.row {
+    display: flex;
+}
+
+.forecast {
+    flex: 1;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 40px 0;
+    margin-right: 20px;
+}
+
+.forecast:last-child {
+    margin-right: 0;
+}
+
+.forecast img {
+    border-radius: 50%;
+    width: 156px;
+    margin: 40px 0;
+}
+
+.forecast p {
+    font-size: 19px;
+}
+
+.temperatures {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.high, .low {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.high::after, .low::after {
+    content: "°";
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+.cookie-policy {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 160px;
+    padding: 20px;
+    border: 2px solid #999;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 19px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.text {
+    width: 70%;
+}
+
+.text h2 {
+    font-size: 28px;
+}
+
+.text p {
+    font-size: 19px;
+}
